@@ -1,0 +1,19 @@
+html {height:100%;}
+body {height:100%;}
+
+.ui-selectable-helper {position: absolute; z-index: 100; border:1px solid #000;}
+.ui-selectable-helper div {opacity:0.1; filter: alpha(opacity=10); width:auto; height:auto; background-color:#000;}
+
+.ui-draggable-dragging {z-index:9999;}
+
+#drag_drop { text-align:center; height:100%; position:relative; background-color:#fff; overflow:hidden;}
+#drag_drop .container { width:570px; margin:0 auto; padding-top:10px;}
+#drag_drop .list {width:150px; float:left; padding:0 20px;}
+#drag_drop .list .title {font-size:15px; font-weight:bold;}
+#drag_drop .list ul {}
+#drag_drop .list ul li {list-style:none; background-color:gray; margin:2px; height:20px; padding-top:3px; cursor:pointer; width:140px;}
+#drag_drop .items_selected {background-color:gray; color:#fff;height:16px; width:100%;}
+#drag_drop .list ul li.ui-selecting {background-color:#aaa !important;}
+#drag_drop .list ul li.ddms_selected {background-color:#aaa !important;}
+#drag_drop .list ul li.ddms_move {background-color:#ccc !important;}
+#drag_drop .list.ddms_hover {background-color:#bbb !important;}
